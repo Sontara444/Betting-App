@@ -1,0 +1,46 @@
+.batting{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(239, 213, 213, 0.244) ;
+    
+}
+
+.batting-container{
+    /* border: 2px solid rgba(255, 0, 0, 0.316); */
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background: white;
+}
+
+.batting-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    height: 10%;
+}
+
+.batting-profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.batting-middle{
+    height: 20%;
+}
+
+.batting-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    height: 10%;
+}
